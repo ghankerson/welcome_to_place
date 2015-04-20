@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-        <title>Web Starter Kit</title>
+        <title>Welcome to Place</title>
 
         <!-- Add to homescreen for Chrome on Android -->
         <meta name="mobile-web-app-capable" content="yes">
@@ -46,8 +46,7 @@
     <body>
         <header class="app-bar promote-layer">
             <div class="app-bar-container">
-                <button class="menu"><img src="images/hamburger.svg"></button>
-                <h1 class="logo">Web Starter Kit</h1>
+                <button class="menu"><img src="images/hamburger.svg" alt="Menu"></button>
                 <section class="app-bar-actions">
                 <!-- Put App Bar Buttons Here -->
                 </section>
@@ -56,19 +55,22 @@
 
         <nav class="navdrawer-container promote-layer">
             <h4>Navigation</h4>
-            <ul>
-                <li><a href="#hello">Hello</a></li>
-                <li><a href="#get-started">Get Started</a></li>
-                <li><a href="styleguide/index.html">Style Guide</a></li>
-            </ul>
         </nav>
 
+        <div class="summary-header">
+          <div class="container">
+              <h2 id="hello">We build visionary places for people to live &amp; work.</h2>
+              <a href="#" class="button--secondary">Learn More</a>
+              <a href="#" class="button--secondary">Donate</a>
+          </div>
+        </div>
         <main>
-            <h1 id="hello">Hello!</h1>
-            <p>Welcome to Web Starter Kit.</p>
-
-            <h2 id="get-started">Get Started.</h2>
-            <p>Read how to <a href="http://developers.google.com/web/starter-kit">Get Started</a> or check out the <a href="styleguide/index.html">Style Guide</a>.</p>
+            <h2 id="get-started">A Better Place to Live</h2>
+            <p>Imagine a place that empowers you—to live affordably, to nurture the environment, to collaborate with others, to express your creativity. What if this all was available just by living there?</p>
+            <ul class="stretch-wide">
+              <li class="stretch-wide-item"><a href="#"><img src="images/owl/housing.png" alt="Housing" /></a><span class="stretch-wide-item-label">Housing</span></li>
+              <li class="stretch-wide-item"><a href="#"><img src="images/owl/energy.png" alt="Renewable Energy" /></a><span class="strech-wide-item-label">Renewable Energy</span></li>
+            </ul>
         </main>
 
         <!-- build:js scripts/main.min.js -->
