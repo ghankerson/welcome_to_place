@@ -1,4 +1,32 @@
+main {
+  padding: 0 1em;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .stretch-wide {
   width: 500%;
-  overflow-x: visible
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  left:0;
+}
+
+.stretch-wide-item {
+  list-style-type: none;
+  display: block;
+  float: left;
+  padding-left: 4em;
+  &:first-child {
+    padding-left: 0;
+  }
+  img {
+    max-width:120px;
+    height: auto;
+  }
+}
+
+.stretch-wide-item-label {
+  display: block;
 }
